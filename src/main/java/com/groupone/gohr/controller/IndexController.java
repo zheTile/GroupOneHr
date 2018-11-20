@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
     @RequestMapping("/toIndex")
     public String toIndex(){
+        /*InetAddress localHost = InetAddress.getLocalHost();
+        String ip = localHost.getHostAddress();获取登陆IP地址*/
         return "index";
     }
 }

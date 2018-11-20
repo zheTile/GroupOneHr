@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
  * createTime:2018-11-13 21:00
  */
 @SpringBootConfiguration //标识该类为配置类
-public class MvcConfigClass extends WebMvcConfigurationSupport {
+public class SpringBootConfigClass extends WebMvcConfigurationSupport {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         //添加自定义拦截器 配置拦截路径addPathPattens和不拦截路径excludePathPatterns 多个路径 用 , 隔开
