@@ -58,11 +58,20 @@
       <version>11.2.0.4.0</version>
     </dependency>
     <!--热部署-->
-    <!--<dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
-    </dependency>-->
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>springloaded</artifactId>
+      <version>1.2.5.RELEASE</version>
+    </dependency>
     <!--模板thymeleaf包-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
